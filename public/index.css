@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pokemonContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.pokemonContainer .pokemonCard{
+    width: 30%;
+    height: 40vh;
+    padding: 24px;
+}
+
+.pokemonContainer .pokemonCard span{
+    display: block;
+    margin: 16px 0;
+}
+
+.pokemonContainer .pokemonCard img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
